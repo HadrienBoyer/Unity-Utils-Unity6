@@ -16,20 +16,22 @@ Welcome to the Unity Utility Library, a growing collection of handy extension me
 
 ## Dependencies
 
-The package requires the Core RP Library due to the LoadVolumeProfile() extension.
+The fork of this package is designed to be used with Unity 6 and the Universal Rendering Pipeline (to create an empty URP project, in the Unity Hub simply follow: "Create Project" -> "Universal 3D" [+ Create Project], you can also add the package manually from the Unity Package Manager). 
+
+**_/!\ This fork ⚠️ not provide the LoadVolumeProfile() extension._**
 
 ## How to Use
 
 Simply download the library into your Unity project and access the utilities across your scripts or import it in Unity with package manager using this URL:
 
-`https://github.com/adammyhre/Unity-Utils.git`
+`https://github.com/HadrienBoyer/Unity-Utils-Unity6.git`
 
 ### With Git URL
 
 Add the following line to the dependencies section of your project's manifest.json file.
 
 ```
-"com.gitamend.unityutils": "https://github.com/adammyhre/Unity-Utils.git"
+"com.hadrienboyer.unityutils": "https://github.com/HadrienBoyer/Unity-Utils-Unity6.git"
 ```
 
 ## YouTube
